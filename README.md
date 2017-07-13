@@ -8,7 +8,7 @@ SimpSoon is animation responsive coming soon page
 Simpsoon template is a simple comming soon page with awesome jquery animation effect and countdown timer.
 
 ## How to use
-1.  Edit counter date : to edit counter date search for "$COUNTER"
+1.  **Edit counter date** : to edit counter date search for "$COUNTER"
     and under this you will fined (div) named (counter)
     then edit (timer) attribute like (Month Day, Year Hours:Minutes:Seconds).
 ```html
@@ -42,7 +42,7 @@ COUNTER
 </div>
 ```
 
-2.  change message text : to change message text go to (assets/js/simpsoon) file
+2.  **change message text** : to change message text go to (assets/js/simpsoon) file
     and go to line number (36) and edit this ["first message", "second message"]
     and if you need to add more messages just add (,) between messages.
 ```javascript
