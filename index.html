@@ -1,0 +1,183 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<!--
+
+TABLE OF CONTENTS
+=================
+
+Use search to find needed section.
+
+===================================================================
+
+|  1. $BODY                        |  Body                        |
+|  2. $LOGO                        |  LOGO                        |
+|  3. $MESSAGE                     |  MESSAGE FOR VISITORS        |
+|  4. $COUNTER                     |  TIME COUNTER                |
+
+===================================================================
+
+TEMPLATE COPYRIGHTS
+===================
+
+TEMPLATE NAME           :   SimpSoon
+
+TEMPLATE DESCRIPTION    :   HTML5 Responsive Animation coming soon template
+
+TEMPLATE AUTHOR         :   Ead Hassan
+
+TEMPLATE AUTHOR URI     :   http://eadhassan.com
+
+TEMPLATE DATE           :   September 2015
+
+TEMPLATE URI            :   http://demo.eadhassan.com/simpsoon/
+
+
+TEMPLATE IMPORTANT DETAILS
+==========================
+
+1:  Edit counter date : to edit counter date search for "$COUNTER"
+    and under this you will fined (div) named (counter)
+    then edit (timer) attribute like (Month Day, Year Hours:Minutes:Seconds).
+
+2:  change default theme color : to change default theme color search for ($BODY)
+    and under this edit (body) tag class like (class="theme-ThemeName").
+
+3:  change message text : to change message text go to (assets/js/simpsoon) file
+    and go to line number (36) and edit this ["first message", "second message"]
+    and if you need to add more messages just add (,) between messages.
+
+-->
+
+
+<head>
+  <title>SimpSoon - HTML5 coming soon Template</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="SimpSoon template, Awesome HTML5 Responsive Animation coming soon template" />
+  <meta name="keywords" content="simpsoon, html5, template, soon, comingsoon" />
+  <meta name="author" content="Ead Hassan" />
+
+  <!-- Bootstrap css files -->
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" media="all" />
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-theme.min.css" media="all" />
+
+  <!-- animated css files -->
+  <link rel="stylesheet" type="text/css" href="assets/css/animate.css" media="all" />
+
+  <!-- template fonts css files -->
+  <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <!-- custom css files & fonts css files -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="all" />
+
+  <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+
+</head>
+
+<!-- 1.$BODY ====================================================================
+
+    BODY
+
+-->
+
+<body>
+
+
+<!-- 1.1$Loading ====================================================================
+
+    Page Loading Animation
+
+-->
+    <div id="pageloading">
+      <div class="inner">
+        <div class="spinner">
+          <div class="dot1"></div>
+          <div class="dot2"></div>
+        </div>
+      </div>
+    </div>
+
+
+<!-- 2.$LOGO ====================================================================
+
+    LOGO
+
+-->
+
+    <div class="logo text-center wow bounceInDown" data-wow-delay="0s">
+        <img src="assets/images/logo.png" alt="Logo" />
+    </div>
+
+
+<!-- 3.$MESSAGE ====================================================================
+
+    MESSAGE
+
+-->
+    <div class="text text-center wow fadeIn" data-wow-delay="2.5s">
+      <span></span>
+    </div>
+
+
+<!-- 4.$COUNTER ====================================================================
+
+    COUNTER
+
+-->
+    <div class="counter" timer="12 25, 2017 12:00:0">
+      <div class="container">
+        <div class="row">
+
+            <div class="col-md-3 col-sm-6 days wow bounceIn" data-wow-delay="1.3s">
+              <div class='count-round'></div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 hours wow bounceIn" data-wow-delay="1.6s">
+              <div class='count-round'></div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 min wow bounceIn" data-wow-delay="1.9s">
+              <div class='count-round'></div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 sec wow bounceIn" data-wow-delay="2.1s">
+              <div class="count-round animated jello"></div>
+            </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="text-center">
+        <P class="text-center"> © Designed and created by <a href="http://eadhassan.com" target="_blank">Ead Hassan</a></P>
+    </div>
+
+    <!-- jquery script -->
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+
+    <!-- bootstrap script -->
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+
+    <!-- typed script -->
+    <script type="text/javascript" src="assets/js/typed.js"></script>
+
+    <!-- wow animation script -->
+    <script type="text/javascript" src="assets/js/wow.min.js"></script>
+
+    <!-- jquery script -->
+    <script type="text/javascript" src="assets/js/jquery.countdown.js"></script>
+    <script type="text/javascript" src="assets/js/simpsoon.js"></script>
+    <script type="text/javascript">
+      wow.init();
+    </script>
+
+</body>
+
+</html>
