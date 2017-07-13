@@ -33,7 +33,7 @@ var wow = new WOW(
 // typed function
 $(function(){
     $(".text span").typed({
-      strings: ["WE WILL BE ONLINE AFTER.", "Visit us after this time."],
+      strings: ["first message", "second message"],
       typeSpeed: 40,
       startDelay: 3000,
       backDelay: 3000,
