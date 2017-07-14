@@ -9,6 +9,13 @@ body{
   color: #34495e;
 }
 
+body:not(.animation-bg) {
+  color: #FFF;
+  background-image: url('../images/bg-1.png');
+  background-position: center;
+  background-size: cover;
+}
+
 a, a:hover, a:focus{ outline: none !important; text-decoration: none }
 
 .logo{
@@ -119,6 +126,11 @@ a, a:hover, a:focus{ outline: none !important; text-decoration: none }
   z-index: 999;
 }
 
+body:not(.animation-bg) .count-round {
+  border: 4px solid #f95b43;
+  color: #f95b43
+}
+
 .count-round:after {
   content: '';
   position: absolute;
@@ -146,6 +158,10 @@ a, a:hover, a:focus{ outline: none !important; text-decoration: none }
   text-shadow: 3px 2px 0px #fff, 6px 5px 0px rgba(0,0,0,0.15);
 }
 
+body:not(.animation-bg) .count-round span {
+  color: #f95b43;
+}
+
 .count-round span p{
   font-size: 16px;
   font-weight: 400;
@@ -158,7 +174,6 @@ a, a:hover, a:focus{ outline: none !important; text-decoration: none }
   width: 100% !important;
   height: 100% !important;
   z-index: 2000;
-  background: #34495e url(../images/bg-1.png) no-repeat center fixed;
   position: fixed;
   top: 0;
   overflow: hidden !important;
