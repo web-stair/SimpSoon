@@ -59,7 +59,8 @@ function changeBackground() {
     var light2 = Math.abs( ( (light+10) % 40) - 20)+60;
     light++ ;
 
-    document.body.style.background = 'linear-gradient(to right, hsl('+col1 +',70%, 75%) 0%,hsl('+col2 +',90%,75%) 100%)';
+    $('body.animation-bg').css('background', 'linear-gradient(to right, hsl('+col1 +',70%, 75%) 0%,hsl('+col2 +',90%,75%) 100%)');
+    //document.body.style.background = 'linear-gradient(to right, hsl('+col1 +',70%, 75%) 0%,hsl('+col2 +',90%,75%) 100%)';
     }
     setInterval	(changeHue, 64);
     }
