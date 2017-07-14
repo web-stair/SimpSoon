@@ -2,7 +2,8 @@
 SimpSoon is animation responsive coming soon page
 
 ## Live preview
-[Demo](http://demo.eadhassan.com/simpsoon)
+[Background Image](http://demo.eadhassan.com/simpsoon)
+[Background animated gradient](http://demo.eadhassan.com/simpsoon/index-animation-bg.html)
 
 ## Description
 Simpsoon template is a simple coming soon page with awesome jquery animation effect and countdown timer.
