@@ -5,7 +5,7 @@ SimpSoon is animation responsive coming soon page
 [Demo](http://demo.eadhassan.com/simpsoon)
 
 ## Description
-Simpsoon template is a simple comming soon page with awesome jquery animation effect and countdown timer.
+Simpsoon template is a simple coming soon page with awesome jquery animation effect and countdown timer.
 
 ## How to use
 1.  **Edit counter date** : to edit counter date search for "$COUNTER"
